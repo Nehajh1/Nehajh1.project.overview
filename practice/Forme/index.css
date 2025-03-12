@@ -1,0 +1,84 @@
+/* General Styles */
+body {
+    background-color: #f4f4f4;
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #333;
+}
+
+/* Container and Layout */
+.container {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.mainHeading {
+    font-size: 2.5em;
+    color: #4CAF50;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+
+/* Table Styles */
+.projectTable {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 0 auto;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border: 1px solid #ddd; /* Border for the entire table */
+}
+
+.projectTable th,
+.projectTable td {
+    padding: 15px;
+    text-align: left;
+    border-left: 1px solid #ddd; /* Border between columns */
+    border-top: 1px solid #ddd;  /* Border between rows */
+}
+
+.projectTable th {
+    background-color: #4CAF50;
+    color: white;
+    font-size: 1.2em;
+}
+
+.projectTable td {
+    background-color: #f9f9f9;
+    font-size: 1.1em;
+}
+
+/* First Column Special Border */
+.projectTable td:first-child,
+.projectTable th:first-child {
+    border-left: none; /* No border on the left side of the first column */
+}
+
+/* Hover Effect for Rows */
+.projectTable tr:hover {
+    background-color: #f1f1f1;
+}
+
+.tableRow:hover {
+    background-color: #f1f1f1;
+}
+
+/* Link Styling */
+.link {
+    text-decoration: none;
+    color: lightblue;
+    font-weight: bold;
+}
+
+.link:hover {
+    color: blue;
+    text-decoration: underline;
+}
+
+
+
